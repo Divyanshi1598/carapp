@@ -1,0 +1,75 @@
+/* .img-wrapper {
+	max-width: 100%;
+	height: 65vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+img {
+	max-width: 100%;
+	height: 100%;
+}
+
+@media screen and (min-width: 576px) {
+	.carousel-inner {
+		display: flex;
+	}
+	.carousel-item {
+		display: block;
+		margin-right: 0;
+		flex: 0 0 calc(100% / 3);
+	}
+	.img {
+		height: 23vw;
+	}
+}
+
+.carousel-inner {
+	padding: 1rem;
+}
+
+.card {
+	margin: 0;
+} */
+
+.App {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.seperator {
+	width: 100%;
+}
+
+.controls-wrapper {
+	width: 100%;
+}
+
+.carousel-wrapper {
+	width: 100%;
+}
+
+.rec-carousel-item:focus {
+	outline: none;
+	box-shadow: inset 0 0 1px 0px violet;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: red;
+	}
+	#cardrow {
+		align-items: stretch;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		overflow-y: hidden;
+		width: "200%";
+	}
+}
